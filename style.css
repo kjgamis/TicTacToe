@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+	font-family: monospace;
+	background-color: #FFF;
+	color: #000;
+}
+.text-center {
+	text-align: center;
+}
+.title {
+	font-size: 2rem;
+	float: left;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.score {
+	float: right;
+	font-size: 2rem;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.board {
+	width: 75%;
+	margin: 0px auto;
+}
+
+.board-cell {
+  border: 3px solid green;
+	cursor: pointer;
+	font-size: 8rem;
+
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
